@@ -22,7 +22,6 @@ import org.harrydulaney.log.DevLog;
 
 @SupportedAnnotationTypes({ "org.harrydulaney.ann.Action" })
 @SupportedSourceVersion(SourceVersion.RELEASE_6)
-
 public class ActionProcessor extends AbstractProcessor {
 
 	private Filer filer;
