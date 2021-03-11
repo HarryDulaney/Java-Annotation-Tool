@@ -17,9 +17,8 @@ import javax.tools.Diagnostic.Kind;
 
 import org.harrydulaney.log.DevLog;
 
-	@SupportedAnnotationTypes(value = {"org.harrydulaney.ann.PublicFinal"})
-	@SupportedSourceVersion(SourceVersion.RELEASE_6)
-
+@SupportedAnnotationTypes(value = {"org.harrydulaney.ann.PublicFinal"})
+@SupportedSourceVersion(SourceVersion.RELEASE_6)
 public class PublicFinalProcessor extends AbstractProcessor {
 		
 		private Filer filer;
