@@ -6,9 +6,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 
-	@Target(ElementType.METHOD)
-	@Retention(RetentionPolicy.SOURCE)
-	
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.SOURCE)
 public @interface PublicFinal {
 
 }
