@@ -20,7 +20,6 @@ import org.harrydulaney.log.DevLog;
 
 @SupportedAnnotationTypes({ "org.harrydulaney.ann.Controller" })
 @SupportedSourceVersion(SourceVersion.RELEASE_6)
-
 public class ControllerProcessor extends AbstractProcessor {
 	
 	 private Filer filer;
